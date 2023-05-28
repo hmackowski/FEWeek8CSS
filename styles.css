@@ -1,0 +1,178 @@
+.navbar {
+    background-color: #2c2c2c;
+    color: white;
+    height: 40px;
+    width: 35%;
+    padding-top: 20px;
+}
+
+.navbar a {
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.pikaImg {
+    float: right;
+}
+
+.bulba {
+    width: fit-content;
+    padding: 5px;
+    background-color: #33c726;
+    border-radius: 25px;
+    border-style: double;
+}
+
+.squirtle {
+    width: fit-content;
+    padding: 5px;
+    background-color: #4364cf;
+    border-radius: 25px;
+    border-style: groove;
+}
+
+.charmander {
+    width: fit-content;
+    padding: 5px;
+    background-color: orange;
+    border-radius: 25px;
+    border-style: groove;
+}
+
+.uListIndex h3 {
+    border-style: groove;
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.footer {
+    background-color: #2c2c2c;
+    color: white;
+    height: 80px;
+    width: 35%;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.socials img {
+    padding: 5px;
+}
+
+.content h2 {
+    text-align: center;
+    border-radius: 2px;
+    background-color: #ffcb05;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content h2:hover {
+    background-color: #2a75bb;
+    color: #ffcb05
+}
+
+.content p#homeP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.content p#pokeInfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+
+.content p#feedPokemon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+
+.hungryPokemon {
+    align-content: center;
+}
+
+.donationForm {
+    display: block;
+    background-color: #f1eaa6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-style: dotted;
+    padding: 8px;
+}
+
+.donationSubmit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+.charaPoke {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding-bottom: 10px;
+    list-style-image: url('images/pokeball.png');
+}
+
+.donationFormText {
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: groove;
+    background-color: #50f186;
+}
+
+.github {
+    display: block;
+    background-image: url(images/github.png);
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.github:hover {
+    background-image: url(images/github2.png);
+}
+
+.linkedIn {
+    display: block;
+    background-image: url(images/linkedIn.png);
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.linkedIn:hover {
+    background-image: url(images/linkedIn2.png);
+}
+
+.pokeInfoTable,
+th,
+td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
